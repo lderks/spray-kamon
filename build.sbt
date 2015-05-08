@@ -10,7 +10,7 @@ libraryDependencies ++= {
   val akkaV = "2.3.9"
   val sprayV = "1.3.3"
   val kamonV = "0.3.5"
-  val aspectV = "1.8.4"
+  val aspectV = "1.5.4"
 
   Seq(
     "io.spray"            %%  "spray-can"     % sprayV,
@@ -18,7 +18,7 @@ libraryDependencies ++= {
     "io.spray"            %%  "spray-routing" % sprayV,
     "io.kamon"            %%  "kamon-core"    % kamonV,
     "io.kamon"            %%  "kamon-spray"   % kamonV,
-    "org.aspectj"         %%  "aspectjweaver" % aspectV,
+    "org.aspectj"         %  "aspectjweaver"  % aspectV,
     "io.spray"            %%  "spray-testkit" % sprayV  % "test",
     "com.typesafe.akka"   %%  "akka-actor"    % akkaV,
     "com.typesafe.akka"   %%  "akka-testkit"  % akkaV   % "test",
